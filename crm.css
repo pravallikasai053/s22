@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color:deeppink;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color:darkslategrey;
+    color: #fff;
+}
+main{.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: #f0f0f0;
+}
+
+.contact-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    display: none; /* Hide contact details by default */
+}
+
+.contact-details.active {
+    display: block; /* Show contact details when active */
+}
+
+.details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.details h3 {
+    margin-top: 0;
+}
+
+
+}
+main{
+    .lead-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .lead {
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .lead:hover {
+        background-color: #f0f0f0;
+    }
+    
+    .lead-details {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        display: none; /* Hide lead details by default */
+    }
+    
+    .lead-details.active {
+        display: block; /* Show lead details when active */
+    }
+    
+    .details {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .details h3 {
+        margin-top: 0;
+    }
+    
+}
+.about-us {
+    padding: 20px;
+    background-color:aqua;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    margin-top: 0;
+}
+
+.about-us-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us-list li {
+    margin-bottom: 15px;
+}
+
+.about-us-list h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.about-us-list p {
+    margin: 0;
+    color:black;
+    font-size: 16px;
+}
